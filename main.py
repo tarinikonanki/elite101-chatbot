@@ -1,6 +1,15 @@
 import sys
 
-print("Welcome to the Elite 101 Chatbot!")
+print("Welcome to Frisco! Are you ready to learn information about schools here?")
+
+registered_users = {{y, x}}
+
+def login():
+    username = input("Enter your username: ")
+    password = input("Enter your password: ")
+    if(username in registered users)
+
+login()
 
 name = input("Enter your name: ")
 
