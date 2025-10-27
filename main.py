@@ -17,7 +17,8 @@ while(isRunning):
         print("Here is a list of the features offered by this application: \n 1. ")
     elif optionChosen == 2:
         print(f"{name}, what problem are you facing today?")
-        problem = int(input("Please choose from the following options: "))
+        problem = int(input("Please choose from the following options: \n 1. Connectivity Issues \n 2. Typos in website"))
+        problemOption = int(input("Enter the number of which problem you are facing: "))
     elif optionChosen == 3:
         print(f"{name}, what feedback do you have for the app?")
         feedback = input("Enter feedback here: ")
