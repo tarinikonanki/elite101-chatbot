@@ -14,13 +14,13 @@ while(isRunning):
     optionChosen = int(input("Enter the number of which option you choose: "))
 
     if optionChosen == 1:
-        print("Here is a list of the features offered by this application: \n 1. ")
+        print("Here is a list of the account types offered by this bank: \n 1. ")
     elif optionChosen == 2:
-        print(f"{name}, what problem are you facing today?")
+        print(f"{name}, what type of account would you like to register for? Type the number choice from the following: ")
         problem = int(input("Please choose from the following options: \n 1. Connectivity Issues \n 2. Typos in website"))
         problemOption = int(input("Enter the number of which problem you are facing: "))
     elif optionChosen == 3:
-        print(f"{name}, what feedback do you have for the app?")
+        username = input(f"{name}, what username do you want to log in with?")
         feedback = input("Enter feedback here: ")
     elif optionChosen == 4:
         print("Well, goodbye!  Ending conversation now.")
