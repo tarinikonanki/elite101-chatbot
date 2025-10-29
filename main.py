@@ -1,6 +1,6 @@
 import sys
 
-print("Welcome to the app! Are you ready to learn information about this application?")
+print("Welcome to the bank! Are you ready to learn information about this banking institution?")
 
 name = input("Enter your name: ")
 feedback = ""
@@ -9,7 +9,7 @@ isRunning = True
 print(f"Well, {name}, it's great to meet you! How can I help you today?")
 
 while(isRunning):
-    print("Please choose from the following options: \n 1. Check application features \n 2. Ask questions \n 3. Submit feedback \n 4. Exit conversation")
+    print("Please choose from the following options: \n 1. Get account type information \n 2. Register for an account \n 3. Access your preexisting account \n 4. Exit conversation")
 
     optionChosen = int(input("Enter the number of which option you choose: "))
 
