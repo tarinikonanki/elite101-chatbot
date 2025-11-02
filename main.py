@@ -14,7 +14,8 @@ while(isRunning):
     optionChosen = int(input("Enter the number of which option you choose: "))
 
     if optionChosen == 1:
-        print("Here is a list of the account types offered by this bank: \n 1. ")
+        print("Here is a list of the account types offered by this bank: \n 1. Checking Account \n 2. Savings Account \n 3. Money Market Account \n 4. Certificate of Deposit")
+        infoOption = int(input("Choose a number from the options above to get more information on the type of account: "))
     elif optionChosen == 2:
         print(f"{name}, what type of account would you like to register for? Type the number choice from the following: ")
         problem = int(input("Please choose from the following options: \n 1. Connectivity Issues \n 2. Typos in website"))
